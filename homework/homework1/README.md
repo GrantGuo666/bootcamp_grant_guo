@@ -10,20 +10,20 @@ The stakeholder is the head of supply chain management department. The users are
 The project will provide predictive insights into demand forecasting and descrpitve analyses of historical supply chain inefficiencies. These insights will help inform deicisions about adjusting inventory levels to avoid stockouts and excess inventory.
 
 ## Assumptions & Constraints
-1.Historical sales data and current inventory levels are accessible and accurate.
-2.Forecasting models can be updated on a weekly basis to account for seasonality and changing demand patterns.
-3.The model needs to integrate with existing warehouse management systemsn and supply chain tools.
+-Historical sales data and current inventory levels are accessible and accurate.
+-Forecasting models can be updated on a weekly basis to account for seasonality and changing demand patterns.
+-The model needs to integrate with existing warehouse management systemsn and supply chain tools.
 
 ## Known Unknowns / Risks
-1.Data might be imcomplete.
-2.External factors and Blakcswan events such as geopolitical conflicts and pandemic may not be accounted for in the model.
-3.The model might stuggle with new product lines that lack historical data.
-4.Forecasting accuracy may deteriorate during periods of unforseen demand spikes.
+-Data might be imcomplete.
+-External factors and Blakcswan events such as geopolitical conflicts and pandemic may not be accounted for in the model.
+-The model might stuggle with new product lines that lack historical data.
+-Forecasting accuracy may deteriorate during periods of unforseen demand spikes.
 ## Lifecycle Mapping
 Goal → Stage → Deliverable
-1.Optimize inventory levels -> Problem Framing & Scoping -> Project scoping document
-2.Predict future demand -> Data exploration and modeling -> Demand forecasting model
-3.Improve inventory level decision-making efficiency -> Deployment & Integration -> Automated forecasting system, integrating with existing warehouse management tools
+-Optimize inventory levels -> Problem Framing & Scoping -> Project scoping document
+-Predict future demand -> Data exploration and modeling -> Demand forecasting model
+-Improve inventory level decision-making efficiency -> Deployment & Integration -> Automated forecasting system, integrating with existing warehouse management tools
 ## Repo Plan
 /data/, /src/, /notebooks/, /docs/ ; cadence for updates
 """)
